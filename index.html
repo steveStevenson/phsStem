@@ -51,11 +51,14 @@
         transform: translate(-50%,-50%);
         z-index: 0;
       }
+      .emoji {
+        font-family: "EmojiSymbols"; 
+      }
     </style>
   </head>
   <body>
     <marquee id="gw" direction="right" truespeed="20">
-      <span class="red">G</span>rand <span class="red">W</span>izard /✨&#xFE0E
+      <span class="red">G</span>rand <span class="red">W</span>izard /<span class="emoji">✨</span>
     </marquee>
     <marquee id="k" direction="left">
       <span class="red">K</span>lansman △
@@ -64,10 +67,10 @@
       <span class="red">P</span>ierce
     </marquee>
     <p id="fire">
-      🔥&#xFE0Ex
+      <span class="emoji">🔥</span>
     </p>
     <p id="cross">
-      ✞&#xFE0E
+      ✞
     </p>
   </body>
 </html>
