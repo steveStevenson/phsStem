@@ -1,0 +1,92 @@
+I. Notes
+  A. Notes in MLA Outline Format
+    I.
+      A.
+        1.
+          a.
+            (1)
+              (a)
+  B. URLS
+    1. "MLA Outline format" = https://owl.english.purdue.edu/owl/resource/544/03/
+    2. "TSA Themes" = http://tsaweb.org/themes-and-problems
+    3. "TSA Website Development Theme" = http://tsaweb.org/sites/default/files/2018%20High%20School%20Webmaster%20Design%20Brief.pdf
+    4. "WA State TSA" = http://www.washingtontsa.org/
+    5. "CSS Box model" = https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
+    6. https://developer.mozilla.org/en-US/docs/Web/API/Console
+    7. https://hackernoon.com/styling-logs-in-browser-console-2ec0807dc91a
+II. Content
+  A. Website
+    1. Webpage theme is mechanical/robotic, with moving parts, themed objects/images/design, etc. Color scheme of silver (text, secondary), bronze (background, primary), and magenta (highlight, tertiary) color-scheme, like Asimov’s I, Robot. Shiny metal, steampunk.
+    2. Various CSS classes for repeatable things (such as shiny bronze background, silver border, silver text, column, etc.)
+    3. About
+      a. Robot models
+      b. Technology
+        (1) General info about robotics, mechanical tech, A.I., etc. used in the robots
+      c. Purposes/uses
+      d. Testimonials(?)
+    4. Economics
+      a. Prices/values
+      b. Plans
+      c. Insurance
+      d. Buy (form (billing, name, address, credit card, etc. Actually accept the different card types (Mastercard, Visa, etc.), PayPal, etc.), some server-side Python to make it actually work. Make the server-side actually work; store form data as XML(?), and call order request function)
+    5. FAQ/About company/policy/etc. The general stuff about the company, website, and their work/business in robotics/AI as a whole.
+    6. Credits ("Website development: McCain Potasky")
+    7. Column
+      a. Background
+        (1). Background: Shiny(?) bronze
+      b. Column
+        (1). Backround: Shiny bronze
+        (2). Border/outline: Silver; medium-thickness
+      c. Content
+        (1). Short desc. of specific robot model
+          (a). “Model A” title
+              ((1)). Silver
+              ((2)). Silver border?
+        (2). Siver filler text
+        (3). Picture w/ silver border?
+          (a). Margin as thick as border
+        (4). Magenta “Info.” (HTTP URL) button
+          (a). Rounded corners (border-radius)
+      d. Functionality
+        (1). Small, top portion of column (title) is visible
+        (2). On mouseover: cursor changes to magenta "interact" cursor
+        (3). On mouseover or on click: Move column up and down
+      e. Custom transition animation between pages?
+        (1). On page load (whenever the user visits a new page), open animation
+        (2). Before changing window.location.href, closing animation
+        (3). changePage() function that plays the closing animation, and then changes the page URL
+      f. Events
+        *There is also an event code for either all or some of the HTTP codes
+        (1). Event codes, catagories, etc. are logged (written to the console and/or server-side txt-file, etc.)
+          (a). Event catagories:
+            ((1)). Code execution / general events (this part of code ran, this happened, etc.)
+            ((2)). User events/actions (the user clicked on this, did this, mouse click (cursor position, time, etc.) more statistical things [the user stayed on this page for X amount of time, etc.])
+            ((3)). Error. Possible idea is to do what the developers of old games for Nintendo consoles did to pass Nintendo's quality check: Hide the errors by making them seem like a hidden, secret page. The red "Error" event catagory could be renamed and recolored to be a blue or something "Hidden" event catagory. When a "Hidden" event-catagory code occurs, the user is redirected to a "hidden" page to cover up the fact that an error occured somewhere. Possibly have a feature that is an "error event-catagory display configuration" that would have a binary value. If it is 1, the "Error" catagory is called "Hidden," and the user gets redirected to the "hidden" page if an error occurs. If it is a 0, the "Error" catagory is shown as it really is, and the user is NOT redirected to the "hidden" page if an error occurs.
+            ((4)). Possibly "Security" event catagory? "Attempted XSS in (X) field," etc.
+          (b). Each event-code catagory has its own color, which is logged to the console
+          Error: Red - RGB(255,0,0)
+            Hidden: Purple - RGB(255,0,255)
+          User: Green - RGB(0,255,0)
+          Execution: Blue - RGB(0,0,255)
+          Security: Orange - RGB(255,128,0)
+      g. MAJOR QUESTION: Have server-side stuff, or don't? Server-side Python would be really nice, as you could then have full control and make everything about the website exactly how you want it, including server-side. You could have MUCH more functionality, including generic server-side stuff and server-side stuff that allows the user to interact with the website (order forms that actually work, etc.). Basically, it would allow you to do all of the server-side stuff. The server-side would be in Python. The ONLY, MAJOR CON is figuring out the physical, HOSTING HARDWARE. Do you host it yourself, do you have someone else host it, what do you do? The main problem is going to be the resources required to host the server (money, hardware). Doing server-side might also get you MAJOR points in the judging.
+      h. Random, crazy idea: to address the requirement of having the website work for a whole bunch of browsers, somehow have the Google Chrome language interpreter run on the website. It would basically be like the website encasing itself in Chrome, so that it would basically be ran in Chrome regardless of what browser accessed it. It would basically be having a set browser code interpreter/executor as a built-in wrapper for the website. This way, regardless of what browser accesses the website, the built-in browser wrapper will be ran, which will interpret and execute the website exactly how it is made to.
+ENG SITE: invisible cursor, image position aligns w/ cursor, change image
+CURSOR: document.style.cursor
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_User_Interface/Using_URL_values_for_the_cursor_property
+
+stemweb
+stemai
+stemai.website
+stemai.site
+stemweb.site - $1.06 at Namecheap
+aiweb.site - $1.06 at Namecheap
+stemweb.site
+.ai
+web.ai
+website.ai
+site.ai
+stem.ai
+stem.meme
