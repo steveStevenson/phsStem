@@ -1,11 +1,11 @@
 <html>
   <head>
     <title>
-      STEM - Robotics Website
+    Artificial Intelligance
     </title>
     <style>
       #background {
-        background: linear-gradient(135deg, rgb(255,128,0), rgb(128,64,0));
+        background: linear-gradient(135deg, rgb(0,0,255), rgb(0,204,255));
       }
       
       #column {
@@ -16,13 +16,11 @@
         bottom: 0;
         left: 0;
         
-        background: linear-gradient(135deg, rgb(255,128,0), rgb(128,64,0));
+        background: linear-gradient(135deg, rgb(0,0,255), rgb(0,204,255));
         
         border-style: solid;
         border-width: 5px;
         border-color: rgb(192,192,192);
-        /*64/32/16 size. Which?*/
-        cursor: url(resources/cursors/interact/interact32.png) 16 16, pointer;
       }
       #columnTitleTextDiv {
         height: 18%;
@@ -86,7 +84,7 @@
         left: 50%;
         transform: translateX(-50%);
         
-        color: rgb(192,192,192);
+        color: rgb(0,0,255);
         
         background-color: rgb(255,0,128);
         
@@ -96,6 +94,7 @@
         border-radius: 10px;
       }
     </style>
+
   </head>
   <body id="background">
     <div id="column">
@@ -103,7 +102,7 @@
       </img>
       <div id="columnTitleTextDiv">
         <p id="columnTitleText">
-          Model A
+        Model A
         </p>
       </div>
       <img id="columnImage">
@@ -111,23 +110,12 @@
       <p id="columnBodyText">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pellentesque faucibus luctus. Fusce quis massa lorem. Maecenas efficitur lacus ante. Pellentesque gravida vel erat eget sodales. Vestibulum sit amet suscipit augue. Nullam et sapien massa. Integer et ipsum in turpis condimentum semper. Vivamus quam elit, accumsan vitae aliquam ac, blandit nec nisi.
       </p>
-      <button id="columnInfoButton" onclick="changePage('modelA.html')">
-        Info.  
+      <button id="columnInfoButton">
+      Info.  
       </button>
     </div>
   </body>
   <script>
-  function changePage(url) {
-    window.location.href = url;
-  };
-  </script>
-  <script src="eventCodes.js">
-  </script>
-  <script id="eventCodeTest">
-  callEventCode(1, "/imgFile.jpg");
-  callEventCode(5, "param0", 1);
-  callEventCode(9, "param0", 1);
-  callEventCode(14, "param0", 1);
-  callEventCode(18, "param0", 1);
+    
   </script>
 </html>
